@@ -1,0 +1,52 @@
+# ============================================================================
+# CREDENCIALES Y CONFIGURACIÓN LOCAL (NO SUBIR A GIT)
+# ============================================================================
+.env
+.env.*
+!.env.example
+
+# ============================================================================
+# PYTHON / FASTAPI
+# ============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ============================================================================
+# FLUTTER / DART
+# ============================================================================
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+*.iml
+*.ipr
+*.iws
+.metadata
+pubspec.overrides.yaml
+**/doc/api/
+coverage/
+
+# ============================================================================
+# EDITORES Y SISTEMA OPERATIVO
+# ============================================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
